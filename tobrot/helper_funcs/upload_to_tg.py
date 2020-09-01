@@ -11,6 +11,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 LOGGER = logging.getLogger(__name__)
 
+import uuid filename = str(uuid.uuid4())
 import asyncio
 import pyrogram
 import os
